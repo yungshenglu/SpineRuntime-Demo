@@ -1,0 +1,24 @@
+{
+  "name": "spine-demo",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yungshenglu/SpinePlayer-Demo"
+  },
+  "description": "Demo animations via Spine Web Player",
+  "main": "app.js",
+  "keywords": [
+    "spine", "spine-player"
+  ],
+  "scripts": {
+    "test": "echo \"[ERR]: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "David Lu",
+  "license": "GNU GENERAL PUBLIC LICENSE Version 3",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "path": "^0.12.7"
+  }
+}

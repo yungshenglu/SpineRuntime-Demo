@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SpineWebPlayer-Demo</title>
+        <!-- Include the JavaScript and CSS files -->
+        <script type="text/javascript" src="SpineWebPlayer/SpineWebPlayer.min.js"></script>
+        <link rel="stylesheet" href="SpineWebPlayer/SpineWebPlayer.min.css">
+    </head>
+
+    <body>
+        <!-- Create a container element -->
+        <div id="player"></div>
+
+        <!-- Create the player with your settings and container ID -->
+        <script type="text/javascript">
+            new spine.SpinePlayer("player", {
+                jsonUrl: "spine/raptor/raptor.json",
+                atlasUrl: "spine/raptor/raptor.atlas",
+                animation: "walk",
+                backgroundColor: "#cccccc",
+            });
+        </script>
+    </body>
+</html>
+
+
