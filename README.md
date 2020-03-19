@@ -1,6 +1,6 @@
-# Spine Web Player Demo
+# Spine Web Demo
 
-This repository is going to demo some animations using [Spine Web Player](http://zh.esotericsoftware.com/spine-player). The simple demo is credited to [Spine Web Player](http://zh.esotericsoftware.com/spine-player).
+This repository is going to demo some animations using [Spine API](http://esotericsoftware.com/spine-api-reference). The simple demo is credited to [Spine](http://zh.esotericsoftware.com).
 
 ---
 ## Description
