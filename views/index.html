@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>SpineWebPlayer-Demo</title>
-        <!-- Include the JavaScript and CSS files -->
-        <script type="text/javascript" src="SpineWebPlayer/SpineWebPlayer.min.js"></script>
-        <link rel="stylesheet" href="SpineWebPlayer/SpineWebPlayer.min.css">
-    </head>
 
-    <body>
-        <!-- Create a container element -->
-        <div id="player"></div>
+<head>
+    <meta charset="UTF-8">
+    <title>Spine Web Demo</title>
 
-        <!-- Create the player with your settings and container ID -->
-        <script type="text/javascript">
-            new spine.SpinePlayer("player", {
-                jsonUrl: "spine/raptor/raptor.json",
-                atlasUrl: "spine/raptor/raptor.atlas",
-                animation: "walk",
-                backgroundColor: "#cccccc",
-            });
-        </script>
-    </body>
+    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
+    <link rel="stylesheet" href="main.css" />
+
+    <script src="jquery/3.1.0/jquery-3.1.0.min.js"></script>
+    <script src="spine-ts/build/spine-canvas.js"></script>
+    <script src="utils.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <h3>Spine Web Demo</h3>
+        <div class="col col-lg-6">
+            <div class="form-control">
+                <label>Animations</label>
+                <select id="animationList"></select>
+            </div>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+
+</body>
+
+<script src="spine-render.js"></script>
+
 </html>
-
-
