@@ -41,7 +41,6 @@ These files must be uploaded to a web server and accessible via URLs.
     Server running at http://127.0.0.1:3000/
     ```
 4. Open your browser with `http://127.0.0.1:3000` and you will get the result as follow
-    ![](img/Demo1.png)
 
 ### Spine Assets
 
