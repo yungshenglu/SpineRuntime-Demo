@@ -1,15 +1,15 @@
-# Spine Web Demo
+# Spine Runtime Demo
 
 This repository is going to demo some animations using [Spine API](http://esotericsoftware.com/spine-api-reference). The simple demo is credited to [Spine](http://zh.esotericsoftware.com).
 
 ---
 ## Description
 
-The Spine Web Player uses [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) for rendering. While WebGL is supported by all recent versions of popular desktop and mobile browsers, there may be compatibility issues with old browsers.
+The Spine Runtime uses [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) for rendering. While WebGL is supported by all recent versions of popular desktop and mobile browsers, there may be compatibility issues with old browsers.
 
 ### Exporting files for the Spine Web Player
 
-The Spine Web Player requires the following files for displaying whole animation:
+The Spine Runtime requires the following files for displaying whole animation:
 
 * `*.json` - display Spine skeltons
 * `*.atlas` and more `*.png` - display texture atlas
