@@ -11,8 +11,8 @@ The Spine Runtime uses [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/
 
 The Spine Runtime requires the following files for displaying whole animation:
 
-* `*.json` - display Spine skeltons
-* `*.atlas` and more `*.png` - display texture atlas
+* `*.json` - used to display Spine skeletons
+* `*.atlas` and more `*.png` - used to display texture atlas
 
 These files must be uploaded to a web server and accessible via URLs.
 
