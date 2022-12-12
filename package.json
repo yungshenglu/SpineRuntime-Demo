@@ -17,7 +17,7 @@
   "author": "David Lu",
   "license": "GNU GENERAL PUBLIC LICENSE Version 3",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http": "0.0.0",
     "path": "^0.12.7"
   }
